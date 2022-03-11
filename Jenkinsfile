@@ -3,6 +3,6 @@ node{
     checkout scm  
   }
   stage('Build Image'){
-    sh "docker build -t my-Goapp-image ."
+    sh "docker build -t my-goapp-image ."
   }
 }
